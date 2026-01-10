@@ -1,0 +1,92 @@
+html,
+body,
+h1,
+ul p,
+img {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   max-width: 900px;
+   min-width: 300px;
+}
+
+#container {
+   background-color: Green;
+   border: solid 6px black;
+   max-width: 50%;
+   margin-top: 10px;
+   margin-left: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+h1 {
+   max-width: 100%;
+   color: white;
+   text-decoration: underline;
+   border: 5px solid black;
+   margin: 10px 0px 10px 0px;
+   padding: 10px 0px 15px 10px;
+
+}
+
+img {
+   max-width: 100%;
+   border: 5px solid black;
+   margin: 0px 0px 0px 0px;
+   padding: 0px
+}
+
+#first-p {
+   color: yellowgreen;
+   font-weight: 550;
+   font-size: 20px;
+   margin: 20px 10px;
+}
+
+#the-finsh-p {
+   color: yellowgreen;
+   font-weight: 550;
+   font-size: 20px;
+   margin: 20px 10px;
+}
+
+.hr-first-class {
+   border-width: 3px;
+   border-color: black;
+   border-style: solid;
+
+   border: 3px solid black;
+}
+
+#hr-last {
+   border: 3px solid black;
+}
+
+ul {
+   list-style: none;
+   margin: 20px 0px ;
+}
+
+ul li span {
+   color: yellowgreen;
+   font-weight: normal;
+}
+
+li {
+   font-size: 25px;
+}
+
+p span {
+   font-weight: bold;
+   font-size: 25px;
+   color: darkblue;
+}
+
+a {
+   color: white;
+   font-size: 25px;
+}
